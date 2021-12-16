@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #453a94;
+}
+
+.box {
+  width: 868px;
+  height: 320px;
+  margin: 200px auto;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.box li {
+  list-style: none;
+  width: 144px;
+  height: 320px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.box li img {
+  height: 100%;
+}
+
+.box li .text {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #FFF;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box:hover li {
+  width: 60px;
+}
+
+.box li:hover {
+  width: 568px;
+}
